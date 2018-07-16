@@ -5,6 +5,7 @@ def index
   if user_signed_in?
   @items = Item.where(:user_id => current_user).order("created_at DESC")
   end
+end
 
 def show
 end
