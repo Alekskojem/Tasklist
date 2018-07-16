@@ -23,8 +23,8 @@
   					<li><%= link_to "Log In", new_user_session_path %></li>
   				<% end %>
   			</ul>
-  			<% if user_signet_in? %>
-  				<%= link_to "New Task", new_item_path, class: "newbar-text newbar-link newbar-right" %>
+  			<% if user_signed_in? %>
+  				<%= link_to "New Task", new_item_path, class: "navbar-text nawbar-link navbar-right" %>
   			<% end %>
   		</div>
   	</nav>
