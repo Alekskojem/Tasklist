@@ -9,6 +9,7 @@ end
 gem 'rails', '~> 5.1.6'
 gem 'sqlite3'
 gem 'puma', '~> 3.7'
+gem 'rubocop'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'sass-rails', '~> 5.0'
